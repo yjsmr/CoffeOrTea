@@ -9,7 +9,7 @@ public class CoffeeOrTea {
         String choice = scan.nextLine();
 
         if(choice.equals("C")){
-            System.out.println("Wonderful choice");
+            System.out.println("Wonderful choice, sir");
 
             System.out.println("Would you like some cream as well? [Write Y or N]");
             String creamCoffee = scan.nextLine();
@@ -26,7 +26,7 @@ public class CoffeeOrTea {
         else if(choice.equals("T")){
             System.out.println("Here's your tea, sir");
 
-            System.out.println("Would you like a lemon [Y or N]");
+            System.out.println("Would you like a lemon as well [Y or N]?");
             String lemon = scan.nextLine();
             if(lemon.equals("Y")){
                 System.out.println("There you go, tea and a lemon slice. Enjoy!");

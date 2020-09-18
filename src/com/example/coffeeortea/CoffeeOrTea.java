@@ -17,14 +17,14 @@ public class CoffeeOrTea {
                 System.out.println("There you go, coffee and cream");
             }
             else if(creamCoffee.equals("N")){
-                System.out.println("Black as night it is");
+                System.out.println("Of course sir, black as night it is");
             }
             else{
                 System.out.println("Sorry sir, we don't have that");
             }
         }
         else if(choice.equals("T")){
-            System.out.println("Here's your tea");
+            System.out.println("Here's your tea, sir");
 
             System.out.println("Would you like a lemon [Y or N]");
             String lemon = scan.nextLine();

@@ -32,7 +32,7 @@ public class CoffeeOrTea {
                 System.out.println("There you go, tea and a lemon slice. Enjoy!");
             }
             else if(lemon.equals("N")){
-                System.out.println("It's not for everyone. Here you go, be careful though, it's quite hot");
+                System.out.println("It's not for everyone. Here you go sir, be careful though, it's quite hot");
             }
             else {
                 System.out.println("Sorry sir, we don't have that");
